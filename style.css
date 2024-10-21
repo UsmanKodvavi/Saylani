@@ -1,0 +1,567 @@
+
+*{
+    /* padding: 0px;
+    margin: 0px; */
+    box-sizing: border-box;
+}
+
+.main{
+    padding: 2px;
+    margin: 2px;
+}
+
+.parent{
+   
+    display: flex;
+    background-color: gray;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    padding: 5px;
+    gap: 30px;
+    border-radius: 10px;
+   align-items: center;
+    list-style: none;
+    
+   
+}
+.d{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.d1{
+    margin-right: 10px;
+    width: 100px;
+    scale: 1.2;
+}
+.parent2{
+   display: flex;
+   gap: 15px;
+   align-items: center;
+    
+}
+.img{
+    flex: 5;
+}
+.d2{
+    flex: 1;
+    text-decoration: underline brown;
+}
+.d02{
+    flex: 1;
+    color: blue;
+    text-decoration: overline brown;
+}
+.d3{
+    border: 1px solid black;
+    padding: 10px;
+    color: white;
+    background-color: blue;
+    width: 100%;
+    border-radius: 80px;
+}
+.d4{
+    border: 1px solid black;
+    padding: 10px;
+    color: black;
+    background-color: yellowgreen;
+    width: 100%;
+    border-radius: 80px;
+}
+
+
+
+.parent3{
+    display:flex ;
+    align-items: center;
+    text-align: justify;
+}
+.parent3 img{
+    width: 100%;
+    height: 100%;
+}
+
+.parent3 p{
+    width: 80%;
+    font-size: 14px;
+}
+
+.saylani{
+    color: #27AE60;
+    text-decoration: underline black;
+}
+
+.ngo{
+    color: #8E44AD;
+    text-decoration: underline black;
+}
+
+.parent4{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #A9DFBF  ;
+    width: 100%;
+    padding: 30px 10px;
+    gap: 10px;
+   border-radius: 10px;
+}
+.d6{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: #196F3D;
+    /* width: 30%; */
+    border-radius: 10px;
+}
+/* }
+.child{
+    color: #fff;
+    background-color: #5D6D7E ;
+} */
+.d7{
+  padding: 10px 10px;
+    color: black;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+
+.child2{
+    padding: 10px 5px;
+    color: #fff;
+    background-color: #27AE60 ;
+    border-radius: 10px;
+}
+
+
+.parent5{
+    position: relative;
+    width: 100%;
+}
+.parent5 img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+.parent5 .btn{
+    position: absolute;
+    top: 90%;
+    left: 90%;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: #196F3D;
+    font-size: 16px;
+    border-radius: 10px;
+   
+}
+
+
+.c1{
+    font-size: 30px;
+}
+
+
+.parent6{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.d8{
+   position: relative;
+    color: #fff;
+    background-color:#7DCEA0;
+    padding: 30px ;
+    width: 140px;
+    height: 125px;
+    /* flex-wrap: wrap; */
+     border-radius: 15px;
+    background-image: url(https://res.cloudinary.com/saylani-welfare/image/upload/v1646927889/website-images/static/44.png) ;
+    background-repeat: no-repeat;
+    /* background-position: 5px;
+         */
+}
+.d8 img{
+    width: 100%;
+ 
+}
+.d8 .w1{
+    color: black;
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50% ,-50%);
+}
+.d9{
+    position: relative;
+    background-image: url(https://res.cloudinary.com/saylani-welfare/image/upload/v1646927857/website-images/static/41.png);
+    background-repeat: no-repeat;
+    color: #fff;
+    /* flex-wrap: wrap; */
+    background-color:#7DCEA0;
+    padding: 30px ;
+    width: 140px;
+    height: 125px;
+    border-radius: 15px;
+}
+.d9 img{
+    width: 100%;
+}
+.d9 .w2{
+    color: black;
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50% ,-50%);
+}
+.d10{
+    position: relative;
+    background-image: url(https://res.cloudinary.com/saylani-welfare/image/upload/v1646927849/website-images/static/39.png);
+    background-repeat: no-repeat;
+    color: #fff;
+    /* flex-wrap: wrap; */
+    background-color:#7DCEA0;
+    padding: 30px ;
+    width: 140px;
+    height: 125px;
+    border-radius: 15px;
+}
+.d10 img{
+    width: 100%;
+}
+.d10 .w3{
+    color: black;
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50% ,-50%);
+
+}
+.d11{
+    position: relative;
+    background-image: url(https://res.cloudinary.com/saylani-welfare/image/upload/v1646927853/website-images/static/40.png);
+    background-repeat: no-repeat;
+    color: #fff;
+    /* flex-wrap: wrap; */
+    background-color:#7DCEA0;
+    padding: 30px ;
+    width: 140px;
+    height: 125px;
+    border-radius: 15px;
+}
+.d11 img{
+    width: 100%;
+}
+.d11 .w4{
+    color: black;
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50% ,-50%);
+
+}
+.d12{
+    position: relative;
+    background-image: url(https://res.cloudinary.com/saylani-welfare/image/upload/v1646927923/website-images/static/48.png);
+    background-repeat: no-repeat;
+    color: #fff;
+    background-color:#7DCEA0;
+    padding: 30px ;
+    /* flex-wrap: wrap; */
+    width: 140px;
+    height: 125px;
+     border-radius: 15px;
+    
+}
+.d12 img{
+    width: 100%;
+   justify-content: center;
+}
+.d12 .w5{
+    color: black;
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50% ,-50%);
+
+
+}
+.d13{
+    position: relative;
+    background-image: url(https://res.cloudinary.com/saylani-welfare/image/upload/v1646927876/website-images/static/43.png);
+    background-repeat: no-repeat;
+    color: #fff;
+    /* flex-wrap: wrap; */
+    background-color: #7DCEA0;
+    padding: 30px ;
+    width: 140px;
+    height: 125px;
+    border-radius: 15px;
+}
+.d13 img{
+    width: 100%;
+}
+.d13 .w6{
+    color: black;
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50% ,-50%);
+
+}
+
+
+.parent7{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.d14{
+    position: relative;
+    background-image: url(https://res.cloudinary.com/saylani-welfare/image/upload/v1676274365/website-images/dynamic/b0abff1d-a3f9-49a7-9d58-273bbc735561.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+    width: 300px;    
+    height: 300px;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    color: black;
+    opacity: 0.7;
+}
+
+.parent7 img{
+    width: 100%;
+    
+}
+.d14 .h1{
+    font-weight: bold;
+    font-size: 20px;
+    color:  white;
+    position: absolute;
+    top: 60%;
+    right: 80%;
+}
+
+.d14 .btn1{
+    color: white;
+    background-color: green;
+    width: 40%;
+    position: absolute;
+    top: 90%;
+    right: 20%;
+    left: 20%;
+}
+
+
+.d15{
+    position: relative;
+    background-image: url(https://res.cloudinary.com/saylani-welfare/image/upload/v1720264120/website-images/dynamic/c029347b-b528-4c27-8a1b-39366f5349d7.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    color: black;
+    opacity: 0.7;
+
+}
+
+.d15 .h2{
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    top: 60%;
+    right: 60%;
+
+}
+
+.d15 .btn2{
+    color: white;
+    background-color: green;
+    width: 40%;
+    position: absolute;
+    top: 90%;
+    right: 10%;
+    left: 30%; 
+}
+
+.d16{
+    position: relative;
+    background-image: url(https://res.cloudinary.com/saylani-welfare/image/upload/v1654923364/website-images/dynamic/c6fdf6af-51d5-4388-97ef-6cf10eb73aca.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    color: black;
+    opacity: 0.7;
+
+}
+
+.d16 .h3{
+    font-weight: bold;
+    font-size: 15px;
+    color:  white;
+    position: absolute;
+    top: 60%;
+    right: 60%;
+
+}
+
+.d16 .btn3{
+    color: white;
+    background-color: green;
+    width: 40%;
+    position: absolute;
+    top: 90%;
+    right: 10%;
+    left: 30%; 
+
+}
+
+
+.parent8{
+    display: flex;
+    justify-content: space-between;
+  
+}
+.s2{
+    color: blueviolet;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.s1::first-letter{
+    font-size: 18px;
+    
+}
+
+.para{
+    display: flex;
+   
+    
+}
+
+/* 
+.d18{
+    background-color: #0d6dB7;
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.d18 img{
+    background-color: white;
+    width: 90px;
+   
+     border-radius: 50%; 
+} */
+
+
+.parent10{
+display: flex;
+/* justify-content: center;
+align-items: center; */
+background-color: wheat;
+width: 80%;
+margin: auto;
+border-radius: 10px;
+}
+
+.p1{
+    text-align: center;
+    text-align: justify;
+}
+
+
+.d19 img{
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* 
+.m1{
+    text-align: center;
+} */
+
+/* .d20{
+    display: flex;
+    justify-content: space-around;
+} */
+
+
+.parent12{
+    background-color:#8E44AD;
+    padding: 25px 0;
+    border-radius: 10px;
+}
+
+.d21{
+    color: #fff;
+    /* text-decoration: dashed  black */
+    text-align: center;
+    font-size: 26px;
+ text-decoration: underline black;
+    margin: 10px 0;
+}
+
+.i1{
+    display: flex;
+    justify-content: center;
+}
+
+.d22{
+    display: flex;
+    /* justify-content: center; */
+   align-items: center;
+    background-color:white;
+    color: black;
+    width: 600px;
+    padding: 8px 0;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.d23{
+    display: flex;
+    justify-content: center;
+}
+
+.d24{
+    width: 60%;
+    border-radius: 5px;
+    color: black;
+    background-color: #fff;
+}
+
+
+.parent13{
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: #424242;
+}
+
+
+.form{
+    display: flex;
+    gap: 50px;
+    margin: 10px 0;
+   
+}
